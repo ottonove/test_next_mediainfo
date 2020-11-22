@@ -48,7 +48,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <script type="text/javascript" src="https://unpkg.com/mediainfo.js/dist/mediainfo.min.js"></script>
+        <script type="text/javascript" src="/scripts/mediainfo.js"></script>
       </Head>
 
       <main className={styles.main}>
