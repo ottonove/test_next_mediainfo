@@ -93,6 +93,12 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+          <a
+            href="ar_demo"
+            className={styles.card}
+          >
+            AR Demo
+          </a>
         </div>
       </main>
 
