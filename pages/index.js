@@ -78,6 +78,12 @@ export default function Home() {
           >
             AR Demo
           </a>
+          <a
+            href="ar03"
+            className={styles.card}
+          >
+            AR Demo Image Tracking
+          </a>
         </div>
       </main>
 
