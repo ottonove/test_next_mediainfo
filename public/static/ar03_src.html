@@ -59,9 +59,10 @@
       gesture-detector
     >
       <!-- we use cors proxy to avoid cross-origin problems -->
+      <!-- https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/trex-image/trex" -->
       <a-nft
         type="nft"
-        url="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/trex-image/trex"
+        url="static/data/noguchi"
         smooth="true"
         smoothCount="10"
         smoothTolerance=".01"
@@ -70,13 +71,15 @@
         emitevents="true"
         cursor="fuse: false; rayOrigin: mouse;"
       >
+      <!-- gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf" -->
         <a-entity
-          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
-          scale="10 10 10"
+          gltf-model="./models/scene.gltf"
+          scale=".5 .5 .5"
           position="300 150 50"
-          rotation="-90 0 0"
+          rotation="0 0 0"
           class="clickable"
           gesture-handler
+          animation-mixer
         >
         </a-entity>
       </a-nft>
