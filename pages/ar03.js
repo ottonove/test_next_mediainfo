@@ -2,8 +2,8 @@ export default function Home() {
     return (
       <iframe
         src="static/ar03_src.html"
-        width="1200px"
-        height="800px"
+        width="1000px"
+        height="2000px"
       >
       </iframe>
     )
